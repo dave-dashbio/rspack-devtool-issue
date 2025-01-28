@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rspack serve",
+    "build": "cross-env NODE_ENV=production rspack build"
+  },
+  "dependencies": {
+    "@remixicon/react": "^4.6.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.2.2",
+    "@rspack/core": "^1.2.2",
+    "cross-env": "^7.0.3"
+  }
+}
